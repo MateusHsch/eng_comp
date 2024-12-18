@@ -1,0 +1,12 @@
+1. O que é um tipo abstrato de dados (TAD)? Qual a característica fundamental na sua utilização?
+    O TAD é um estilo arquitetural para modelos de dados, os TAD contam com uma estrutura de dados e operações para
+    tratar esses dados. A utilização de TAD se dá principalmente para reutilização e segurança, pois ao utilizar um
+    TAD precisamos apenas de sua interface e não de sua implementação;
+
+2. Quais as vantagens de se programar utilizando um TAD?
+    As vantagens do TAD são o reaproveitamento de código e sua abstração, pois podemos usar um TAD precisamos apenas
+    de sua interface e não de sua implementação;
+
+3. Desenvolva um TAD que represente um cubo. Inclua as funções de inicializações necessárias e as operações que
+retornem os tamanhos de cada lado, a sua área e o seu volume. (Fazer usando o TAD que ja fiz de caixa e ponto
+porém para junta-los na compilação)

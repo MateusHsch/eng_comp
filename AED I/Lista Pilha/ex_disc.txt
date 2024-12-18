@@ -1,0 +1,37 @@
+1. O que significa alocação sequencial de memória para um conjunto de
+elementos?
+    Significa que estamos alocando um grande "bloco" de endereços na memória, com todos os endereços alocados
+    em sequência.
+
+2. O que significa alocação estática de memória para um conjunto de elementos?
+    Ao usarmos alocação estática, significa que estamos alocando um espaço de memória fixo na inicialização do
+    programa e portanto não é possivel alterar o tamanho desse espaço durante a execução;
+
+3. Qual a diferença entre alocação sequencial e alocação encadeada?
+    Na alocação sequencial todos os endereços alocados estão em sequencia, enquanto na alocação encadeada podemos
+    alocar espaços em diferentes posições na memória e não necessáriamente em sequencia.
+
+4. Quais as vantagens de se utilizar alocação encadeada para um conjunto de
+elementos? Quais as possíveis desvantagens?
+    Ao usarmos alocação encadeada não precisamos ter um grande bloco de endereços em sequencia, pois podemos
+    alocar endereços em diferentes espaços da memória encadeados entre sí. Porém para acessarmos um desses espaços,
+    precisamos acessar varios enderecos de memória em posições diferentes, o que acaba diminuindo a eficiencia
+    do programa.
+
+5. Qual a diferença entre alocação estática e alocação dinâmica?
+    A alocação estática é feita na inicialização do programa, alocando um espaço fixo. A alocação dinâmica é feita
+    de forma manual durante a execução do programa e assim podemos controlar a quantidade de espaços que queremos
+    alocar, porém essa alocar dinamicamente exige a liberação da memória após seu uso.
+
+
+25.O que é e para que serve uma pilha?
+    Uma pilha é uma estrutura de dados linear que serve para armazenar dados de acordo com sua ordem de entrada,
+    onde o primeiro elemento a entrar é o ultimo a sair.
+
+26.Em que situações uma pilha pode ser utilizada?
+    As pilhas são usadas para avaliação de expressões, gerenciar chamadas de funções, entre outros.
+
+27. Suponha que uma pilha possua 4 valores na seguinte ordem: 1, 2, 3 e 4. Qual seria a sequencia
+correta de operações de Inserção e Eliminação para se obter os registros na ordem 2 4 3 1?
+    pop(4),pop(3),pop(2),pop(1),push(2),push(4),push(3) e push(1).
+

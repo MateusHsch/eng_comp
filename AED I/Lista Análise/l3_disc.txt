@@ -1,0 +1,30 @@
+3 - Quando calculamos a complexidade de algoritmos não recursivos podemos nos
+guiar por um conjunto de regras simples de serem seguidas. Cite e descreva
+essas regras.
+
+Ao calcular a complexidade de algoritmos não recursivos, podemos nos guiar por algumas regras simples que nos ajudam
+a determinar a complexidade de tempo (quantidade de operações realizadas) e a complexidade de espaço (quantidade de
+memória utilizada). Aqui estão as principais regras:
+
+Regra da sequência: Para calcular a complexidade de um conjunto de instruções sequenciais, basta somar as
+complexidades individuais das instruções. Se tivermos uma sequência de instruções, onde cada instrução tem uma
+complexidade constante C, a complexidade total será N * C, onde N é o número de instruções na sequência.
+
+Regra do loop: Para calcular a complexidade de um loop, multiplique a complexidade do corpo do loop pela quantidade
+de iterações que o loop realiza. Se o loop for executado N vezes, a complexidade do loop será N vezes a complexidade
+do corpo do loop.
+
+Regra da decisão (if/else): Para calcular a complexidade de uma estrutura condicional, como um if ou else, considere
+a instrução que tiver a maior complexidade. Se o corpo do if tiver uma complexidade de C1 e o corpo do else tiver
+uma complexidade de C2, então a complexidade total da estrutura condicional será o máximo entre C1 e C2.
+
+Regra das funções: Se um algoritmo chama uma função, a complexidade dessa chamada será a complexidade da função.
+Se a função for chamada dentro de um loop ou estrutura condicional, a complexidade total incluirá as complexidades
+do loop ou da estrutura condicional, multiplicadas pelo número de vezes que a função é chamada.
+
+Regra da recursão: No caso de algoritmos recursivos, a complexidade será uma função do número de chamadas recursivas
+e da complexidade de cada chamada. É comum utilizar a notação de recorrência para descrever a complexidade de
+algoritmos recursivos, como O(n), O(log n), etc.
+
+Regra da soma: Se o algoritmo contiver partes separadas e independentes, a complexidade total será a soma das
+complexidades dessas partes.

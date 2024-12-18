@@ -1,0 +1,6 @@
+2. Busca linear (ou busca sequencial) é um tipo de pesquisa em vetores ou listas de
+modo sequencial, i. e., elemento por elemento, de modo que a função do tempo em
+relação ao número de elementos é linear, ou seja, cresce proporcionalmente. No pior
+caso, qual o custo desse tipo de busca
+
+Para o pior caso o algoritmo deve percorrer todos os n dados buscando o valor, então O(n).
